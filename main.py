@@ -2,8 +2,8 @@ import socket
 import machine
 import wlan  # import vlastního modulu wlan.py
 
-SSID = "Vodafone-1531"
-PASSWORD = "7WWN5eUymt5usuke"
+SSID = "Název sítě"
+PASSWORD = "Heslo k wifi"
 
 led = machine.Pin("LED", machine.Pin.OUT)
 
